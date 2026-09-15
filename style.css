@@ -122,3 +122,18 @@ a {
   border-radius: 12px;
   flex-shrink: 0;
 }
+
+.quote{
+  background-color: #E5E7EB;
+  font-size: 36px;
+  color: #1F2937;
+  font-weight: 300;
+  font-style: italic;
+  text-align: center;
+  padding: 30px;
+}
+
+.quote-author{
+  font-weight: 500;
+  font-style:normal;
+}
