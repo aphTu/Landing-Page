@@ -123,17 +123,53 @@ a {
   flex-shrink: 0;
 }
 
-.quote{
-  background-color: #E5E7EB;
+.quote {
+  background-color: #e5e7eb;
   font-size: 36px;
-  color: #1F2937;
+  color: #1f2937;
   font-weight: 300;
   font-style: italic;
   text-align: center;
   padding: 30px;
 }
 
-.quote-author{
+.quote-author {
   font-weight: 500;
-  font-style:normal;
+  font-style: normal;
+}
+
+.action {
+  width: 100%;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  padding: 32px 75px;
+}
+
+.action .inner-section {
+  background-color: #3882f6;
+  padding: 32px 48px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 12px;
+}
+.action .inner-section .text .heading {
+  color: #f9faf8;
+}
+
+.action .inner-section .text .paragraph {
+  color: #e5e7eb;
+}
+
+.action .inner-section button {
+  background-color: #3882f6;
+  padding: 5px 12px;
+  color: #f9faf8;
+  font-size: 16px;
+  font-weight: 500;
+  border-radius: 12px;
+  flex-shrink: 0;
+  width: 100px;
+  border: 2px solid #f9faf8;
 }
