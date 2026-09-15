@@ -173,3 +173,11 @@ a {
   width: 100px;
   border: 2px solid #f9faf8;
 }
+
+.footer {
+  display: flex;
+  justify-content: center;
+  background-color: #1f2937;
+  color: #f9faf8;
+  padding: 30px;
+}
